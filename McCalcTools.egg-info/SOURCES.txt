@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+McCalcTools/McCalcTools.py
+McCalcTools/__init__.py
+McCalcTools.egg-info/PKG-INFO
+McCalcTools.egg-info/SOURCES.txt
+McCalcTools.egg-info/dependency_links.txt
+McCalcTools.egg-info/top_level.txt
