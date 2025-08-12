@@ -30,13 +30,13 @@ print(mcalc.blocksize(100, 1)) # 5
 print(mcalc.blockvolume(10, 5, 3)) # 150
 
 # Calculate how many blocks you need for a semi_square circumference with a radius of 8
-print(square_circumference_blocks(8)) 
+print(mcalc.square_circumference_blocks(8)) 
 
 # Calculate how many blocks you need for a circumference without 3 blocks on the corner with a radius of 8
-print(not3Cornered_circumference_blocks(8)) 
+print(mcalc.not3Cornered_circumference_blocks(8)) 
 
 # Calculate how many blocks you need for a circumference without 6 blocks on the corner with a radius of 8
-print(not6Cornered_circumference_blocks(8)) 
+print(mcalc.not6Cornered_circumference_blocks(8)) 
 
 # Calculate the real area of ​​a square with 10 blocks per side (scale 20)
 print(mcalc. square_area_real(10)) # 40000
@@ -57,4 +57,5 @@ print(mcalc. square_area_real(10)) # 40000
 This project is released under the MIT License. See the `LICENSE` file for full details.
 
 ---
+
 Do you have an idea or would you like to contribute? Don't be shy and open an issue or send a pull request!
