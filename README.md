@@ -35,7 +35,6 @@ fun main() {
 ```java
 public class Main {
     public static void main(String[] args) {
-        // Ejemplo de uso de funciones de McCalcTools
         System.out.println(McCalcTools.calcStuck(150)); // → 3
         System.out.println(McCalcTools.calcChunk(45)); // → 2
         System.out.println(McCalcTools.realSize(10, 1.0)); // → 100.0
