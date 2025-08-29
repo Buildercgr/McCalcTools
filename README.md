@@ -5,9 +5,12 @@
 
 To install this package only copy and paste the .jar in your project and import it in your gradle project as a .jar library.
 You will need to copy the jar and paste in libs folder and put this content on the build.gradle (in java) or build.gradle.kts (in kotlin)
+
+```gradle
 dependencies {
     implementation(files("libs/McCalcTools-0.4.0.jar"))
 }
+```
 
 
 
@@ -27,6 +30,24 @@ fun main() {
     println(McCalcTools.range(13)) // 1.3
 }
 
+```
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Ejemplo de uso de funciones de McCalcTools
+        System.out.println(McCalcTools.calcStuck(150)); // → 3
+        System.out.println(McCalcTools.calcChunk(45)); // → 2
+        System.out.println(McCalcTools.realSize(10, 1.0)); // → 100.0
+        System.out.println(McCalcTools.blockSize(100.0, 1.0)); // → 10
+        System.out.println(McCalcTools.blockVolume(10, 5, 3)); // → 150
+        System.out.println(McCalcTools.squareCircumferenceBlocks(8)); // → 64
+        System.out.println(McCalcTools.not3CorneredCircumferenceBlocks(8)); // → 61
+        System.out.println(McCalcTools.not6CorneredCircumferenceBlocks(8)); // → 58
+        System.out.println(McCalcTools.area(10, 10, 1.3)); // → 16900.0
+        System.out.println(McCalcTools.range(13)); // → 1.3
+    }
+}
 ```
 
 ## Included Functions
