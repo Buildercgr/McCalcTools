@@ -15,7 +15,7 @@ dependencies {
 
 
 ## Basic Use
-
+# Kotlin
 ```kotlin
 fun main() {
     println(McCalcTools.calcStuck(150)) // 3
@@ -31,7 +31,7 @@ fun main() {
 }
 
 ```
-
+# Java
 ```java
 public class Main {
     public static void main(String[] args) {
