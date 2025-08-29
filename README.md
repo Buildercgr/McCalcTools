@@ -4,11 +4,7 @@ The translation to python of McCalcTools, the great gitpack module for minecraft
 
 ## Installation
 
-To install this package, once it's available on Github Packages, just do this:
-
-```sh
-pip install McCalcTools
-```
+To install this package only copy and paste the .jar in your project and import it as a .jar library.
 
 
 ## Basic Use
