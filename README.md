@@ -1,10 +1,14 @@
-# McCalcTools-Python-Module
-The translation to python of McCalcTools, the great gitpack module for minecraft calculations.
+# McCalcTools
 **McCalcTools** is just what you need to help with your Minecraft calculations and those model builds you've been thinking about. It lets you convert blocks to meters, calculate which chunk each item falls into, how many stacks you need, areas, volumes, and even simulated circumferences. It's a pleasure to plan and design constructions, both in-game and in the real world!
 
 ## Installation
 
-To install this package only copy and paste the .jar in your project and import it as a .jar library.
+To install this package only copy and paste the .jar in your project and import it in your gradle project as a .jar library.
+You will need to copy the jar and paste in libs folder and put this content on the build.gradle (in java) or build.gradle.kts (in kotlin)
+dependencies {
+    implementation(files("libs/McCalcTools-0.4.0.jar"))
+}
+
 
 
 ## Basic Use
