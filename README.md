@@ -37,6 +37,7 @@ public class Main {
         System.out.println(McCalcTools.INSTANCE.calcChunk(45)); // → 2
         System.out.println(McCalcTools.INSTANCE.realSize(10, 1.0)); // → 100.0
         System.out.println(McCalcTools.INSTANCE.blockSize(100.0, 1.0)); // → 10
+        System.out.println(McCalcTools.INSTANCE.blockVolume(10, 5, 3))
         System.out.println(McCalcTools.INSTANCE.area(10, 10, 1.3)); // → 16900.0
         System.out.println(McCalcTools.INSTANCE.range(13)); // → 1.3
     }
@@ -59,5 +60,6 @@ This project is released under the MIT License. See the `LICENSE` file for full 
 
 ---
 Do you have an idea or would you like to contribute? Don't be shy and open an issue or send a pull request!
+
 
 
