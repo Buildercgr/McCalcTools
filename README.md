@@ -2,6 +2,7 @@
 **McCalcTools** is just what you need to help with your Minecraft calculations and those model builds you've been thinking about. It lets you convert blocks to meters, calculate which chunk each item falls into, how many stacks you need, areas, volumes, and even simulated circumferences. It's a pleasure to plan and design constructions, both in-game and in the real world!
 
 ## Installation
+### You need a gradle project to import this module.
 
 To install this package only copy and paste the .jar in your project and import it in your IDE and in your gradle project as a .jar library.
 You will need to copy the jar and paste in libs folder and put this content on the build.gradle (in java) or build.gradle.kts (in kotlin)
@@ -58,4 +59,5 @@ This project is released under the MIT License. See the `LICENSE` file for full 
 
 ---
 Do you have an idea or would you like to contribute? Don't be shy and open an issue or send a pull request!
+
 
